@@ -10,7 +10,6 @@
 
 <AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="santorosarioControladores.FXMLVstaController">
     <children>
-        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <HBox alignment="CENTER" prefHeight="99.0" prefWidth="716.0">
          <children>
             <Label text="Santo Rosario y Divina Misericordia">
@@ -26,11 +25,17 @@
                <VBox.margin>
                   <Insets bottom="10.0" top="10.0" />
                </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
             </Button>
             <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#clickSalir" prefHeight="85.0" prefWidth="180.0" text="Salir">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
             </Button>
          </children>
       </VBox>

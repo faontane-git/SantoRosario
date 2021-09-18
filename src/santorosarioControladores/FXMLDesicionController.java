@@ -16,44 +16,56 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 /**
+ * FXML Controller class
  *
  * @author Fabrizzio Ontaneda
  */
-public class FXMLVstaController implements Initializable {
+public class FXMLDesicionController implements Initializable {
 
     @FXML
-    private Button btnIniciar;
+    private Button btnMenu;
     @FXML
-    private Button btnSalir;
+    private Button btnSantoRosario;
     @FXML
-    private Button btnCreditos;
+    private Button btnDivinaMisericordia;
+     
 
+        
+
+    /**
+     * Initializes the controller class.
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }
 
     @FXML
-    private void clickiniciar(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDesicion.fxml"));
+    private void ClickSantoRosario(ActionEvent event) throws IOException {
+       
+        
+        
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLMisterio.fxml"));
         Scene scene = new Scene(root);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(scene);
         stage.show();
+      
+        
+        
+        
     }
 
     @FXML
-    private void clickSalir(ActionEvent event) {
-        System.exit(0);
+    private void clickDivinaMisericordia(ActionEvent event) {
     }
 
     @FXML
-    private void clickCreditos(ActionEvent event) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLCreditos.fxml"));
+    private void clickMenu(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLVsta.fxml"));
         Scene scene = new Scene(root);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(scene);

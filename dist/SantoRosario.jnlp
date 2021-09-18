@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="SantoRosario.jar" size="4984" download="eager" />
+    <jar href="SantoRosario.jar" size="8884" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="santorosarioControladores.SantoRosario"  name="SantoRosario" />
   <update check="always"/>
