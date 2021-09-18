@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="santorosarioControladores.FXMLVstaController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <HBox alignment="CENTER" prefHeight="99.0" prefWidth="716.0">
+         <children>
+            <Label text="Santo Rosario y Divina Misericordia">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="217.0" layoutY="99.0" prefHeight="367.0" prefWidth="283.0">
+         <children>
+            <Button fx:id="btnIniciar" contentDisplay="CENTER" mnemonicParsing="false" onAction="#clickiniciar" prefHeight="85.0" prefWidth="180.0" text="Iniciar">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#clickSalir" prefHeight="85.0" prefWidth="180.0" text="Salir">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="btnCreditos" layoutX="36.0" layoutY="537.0" mnemonicParsing="false" onAction="#clickCreditos" prefHeight="41.0" prefWidth="105.0" text="Créditos" />
+    </children>
+</AnchorPane>
