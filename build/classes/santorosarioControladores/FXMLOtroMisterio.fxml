@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="santorosarioControladores.FXMLOtroMisterioController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="700.0">
+         <children>
+            <Label text="Elija el Misterio que desea Rezar ">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Button fx:id="bntMiserioGozoso" layoutX="94.0" layoutY="174.0" mnemonicParsing="false" onAction="#clickGozosos" prefHeight="84.0" prefWidth="167.0" text="Misterios Gozosos" />
+      <Button fx:id="btnMisterioLuminosos" layoutX="94.0" layoutY="333.0" mnemonicParsing="false" onAction="#clickMisterioLuminoso" prefHeight="84.0" prefWidth="167.0" text="Misterios Luminosos" />
+      <Button fx:id="bntMiserioDolorosos" layoutX="439.0" layoutY="168.0" mnemonicParsing="false" onAction="#clickMisterioDoloroso" prefHeight="84.0" prefWidth="167.0" text="Misterios Dolorosos" />
+      <Button fx:id="btnMisterioGloriosos" layoutX="439.0" layoutY="333.0" mnemonicParsing="false" onAction="#clickMisterioGlorioso" prefHeight="84.0" prefWidth="167.0" text="Misterios Gloriosos" />
+   </children>
+</AnchorPane>

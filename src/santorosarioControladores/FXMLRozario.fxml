@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="santorosarioControladores.FXMLRozarioController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="90.0" prefWidth="702.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="387.0" text="¡Bienvenido!">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ImageView fitHeight="521.0" fitWidth="702.0" layoutY="81.0">
+         <image>
+            <Image url="@../../../rosario-21.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="M1C1" fill="DODGERBLUE" layoutX="407.0" layoutY="129.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M5C10" fill="DODGERBLUE" layoutX="282.0" layoutY="129.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M5C9" fill="DODGERBLUE" layoutX="258.0" layoutY="117.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C2" fill="DODGERBLUE" layoutX="432.0" layoutY="117.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C3" fill="DODGERBLUE" layoutX="461.0" layoutY="109.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0ff1f" height="106.0" layoutX="334.0" layoutY="336.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0ff1f" height="15.0" layoutX="293.0" layoutY="366.0" stroke="BLACK" strokeType="INSIDE" width="99.0" />
+      <Circle fx:id="SegundoMisterio" fill="#ff1f1f" layoutX="640.0" layoutY="217.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="TercerMisterio" fill="#ff1f1f" layoutX="482.0" layoutY="472.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="CuartoMisterio" fill="#ff1f1f" layoutX="205.0" layoutY="471.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="QuintoMisterio" fill="#ff1f1f" layoutX="47.0" layoutY="217.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C4" fill="DODGERBLUE" layoutX="488.0" layoutY="106.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C5" fill="DODGERBLUE" layoutX="518.0" layoutY="106.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C6" fill="DODGERBLUE" layoutX="546.0" layoutY="113.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C7" fill="DODGERBLUE" layoutX="572.0" layoutY="127.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C8" fill="DODGERBLUE" layoutX="597.0" layoutY="144.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C9" fill="DODGERBLUE" layoutX="616.0" layoutY="163.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C10" fill="DODGERBLUE" layoutX="631.0" layoutY="185.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C1" fill="DODGERBLUE" layoutX="641.0" layoutY="248.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C2" fill="DODGERBLUE" layoutX="637.0" layoutY="273.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C3" fill="DODGERBLUE" layoutX="628.0" layoutY="298.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C4" fill="DODGERBLUE" layoutX="616.0" layoutY="321.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C5" fill="DODGERBLUE" layoutX="602.0" layoutY="343.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C10" fill="DODGERBLUE" layoutX="509.0" layoutY="449.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C6" fill="DODGERBLUE" layoutX="587.0" layoutY="365.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C7" fill="DODGERBLUE" layoutX="571.0" layoutY="386.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C8" fill="DODGERBLUE" layoutX="551.0" layoutY="408.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M2C9" fill="DODGERBLUE" layoutX="532.0" layoutY="428.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1" fill="DODGERBLUE" layoutX="453.0" layoutY="494.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C2" fill="DODGERBLUE" layoutX="428.0" layoutY="513.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C3" fill="DODGERBLUE" layoutX="405.0" layoutY="531.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C4" fill="DODGERBLUE" layoutX="384.0" layoutY="546.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C5" fill="DODGERBLUE" layoutX="360.0" layoutY="560.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C6" fill="DODGERBLUE" layoutX="327.0" layoutY="561.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C7" fill="DODGERBLUE" layoutX="301.0" layoutY="542.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C8" fill="DODGERBLUE" layoutX="281.0" layoutY="528.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C9" fill="DODGERBLUE" layoutX="258.0" layoutY="512.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C10" fill="DODGERBLUE" layoutX="234.0" layoutY="495.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M4C1" fill="DODGERBLUE" layoutX="176.0" layoutY="448.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1011" fill="DODGERBLUE" layoutX="154.0" layoutY="427.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1012" fill="DODGERBLUE" layoutX="136.0" layoutY="408.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1013" fill="DODGERBLUE" layoutX="115.0" layoutY="385.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1014" fill="DODGERBLUE" layoutX="99.0" layoutY="363.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1015" fill="DODGERBLUE" layoutX="84.0" layoutY="341.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1016" fill="DODGERBLUE" layoutX="69.0" layoutY="318.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1017" fill="DODGERBLUE" layoutX="57.0" layoutY="295.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1018" fill="DODGERBLUE" layoutX="50.0" layoutY="271.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C1019" fill="DODGERBLUE" layoutX="45.0" layoutY="247.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C10191" fill="DODGERBLUE" layoutX="56.0" layoutY="186.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101911" fill="DODGERBLUE" layoutX="70.0" layoutY="164.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101912" fill="DODGERBLUE" layoutX="89.0" layoutY="146.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101913" fill="DODGERBLUE" layoutX="115.0" layoutY="129.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101914" fill="DODGERBLUE" layoutX="141.0" layoutY="116.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101915" fill="DODGERBLUE" layoutX="168.0" layoutY="108.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101916" fill="DODGERBLUE" layoutX="199.0" layoutY="106.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M3C101917" fill="DODGERBLUE" layoutX="227.0" layoutY="108.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="SegundoMisterio1" fill="#ff1f1f" layoutX="344.0" layoutY="315.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="SegundoMisterio2" fill="#ff1f1f" layoutX="343.0" layoutY="201.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C11" fill="DODGERBLUE" layoutX="343.0" layoutY="233.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C12" fill="DODGERBLUE" layoutX="343.0" layoutY="258.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="M1C13" fill="DODGERBLUE" layoutX="344.0" layoutY="284.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="btnAnterior" layoutX="44.0" layoutY="530.0" mnemonicParsing="false" onAction="#clickAnterior" prefHeight="52.0" prefWidth="136.0" text="Anterior" />
+      <Button fx:id="btnSiguiente" layoutX="529.0" layoutY="528.0" mnemonicParsing="false" onAction="#clickSiiguiente" prefHeight="52.0" prefWidth="136.0" text="Siguiente" />
+      <Button fx:id="btnMenu" layoutX="609.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickMenu" prefHeight="24.0" prefWidth="64.0" text="Menú" />
+   </children>
+</AnchorPane>
